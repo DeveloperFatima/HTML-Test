@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><center>Novell Services Login</center></h1>
+    <form action="">
+        <label for="uname">Username:</label>
+        <input type="text" name="username" id="uname" required><br><br>
+        <label for="pass">Password:</label>
+        <input type="password" name="password" id="pass" required><br><br>
+        <label for="city">City of Employment:</label> 
+        <input type="text" name="city of employment" id="city" required><br><br>
+        <label for="webserver">Web Server:</label>
+        <select name="web" id="webserver" required>
+            <option value="" disabled selected>Choose a server:</option>
+            <option value="">Apache HTTP Server</option>
+            <option value="">IIS</option>
+            <option value="">Apache Tomcat</option>
+            <option value="">LiteSpeed Web Server</option>
+            <option value="">Nginx</option>
+            <option value="">Lighttpd</option>
+            <option value="">Oracle iPlanet Web Server</option>
+            <option value="">Jigsaw server</option>
+            <option value="">OpenLiteSpeed</option>
+        </select><br><br>
+        <label for="role">Please specify your role:</label><br>
+        <input type="radio" name="Role" id="role">Admin <br>
+        <input type="radio" name="Role" id="role">Engineer <br>
+        <input type="radio" name="Role" id="role">Manager <br>
+        <input type="radio" name="Role" id="role" required>Guest <br><br>
+        <label for="check">Single-Sign on to the following:</label><br>
+        <input type="checkbox" name="sign" id="check">Mail <br>
+        <input type="checkbox" name="sign" id="check">Payroll <br>
+        <input type="checkbox" name="sign" id="check">Self-Service
+    </form><br><br>
+    <a href="../index.html">Back to Home</a>
+</body>
+</html>
